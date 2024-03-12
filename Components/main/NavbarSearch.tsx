@@ -7,9 +7,16 @@ import LogoRyM from "@/public/LogoRickyMorty.webp";
 import Image from "next/image";
 import DimensionInf from "./DimensionInf";
 import CardInf from "./CardInf";
+interface LocationData {
+    name: string;
+    type: string;
+    dimension: string;
+    residents?: string[];
+  }
+
 
 const NavbarSearch = () => {
-  const [location, setlocation] = useState({});
+  const [location, setlocation] = useState<LocationData>({ name: '', type: '', dimension: '', residents: [] });
 
   const [searchId, setSearchId] = useState("");
 
