@@ -51,9 +51,10 @@ const NavbarSearch = () => {
         placeholder={""}
         className="mx-auto max-w-none bg-[#030014]  px-4 py-3 rounded-none border-none relative z-20"
       >
+        
         <div className="flex flex-wrap items-center justify-center md:justify-between gap-y-4 text-white">
           <Image src={LogoRyM} width={270} alt="" className="w-52" />
-
+         
           <div className="relative flex w-full gap-2 md:w-max items-end">
             <Input
               crossOrigin={""}
