@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardBody, CardFooter, CardHeader, Tooltip, Typography } from '@material-tailwind/react';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
