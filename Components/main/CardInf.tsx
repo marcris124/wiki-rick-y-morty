@@ -1,8 +1,10 @@
 import { Card, CardBody, CardFooter, CardHeader, Tooltip, Typography } from '@material-tailwind/react'
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-
-const CardInf = ({url}) => {
+interface CardInfProps {
+    url: string;
+  }
+const CardInf: React.FC<CardInfProps> = ({ url }) =>{
 
     const [users,setusers] = useState({})
 
