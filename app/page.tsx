@@ -1,3 +1,5 @@
+"use client"
+
 import NavbarSearch from "@/Components/main/NavbarSearch";
 import Image from "next/image";
 
